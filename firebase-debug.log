@@ -1,0 +1,110 @@
+[debug] [2025-06-07T10:26:16.568Z] ----------------------------------------------------------------------
+[debug] [2025-06-07T10:26:16.572Z] Command:       /nix/store/rbdrkcs5kkwpalxcd7c6bnm33lk2955n-nodejs-20.19.0/bin/node /nix/store/nh3zwzkz6wh6qa7bd2ywzr7irjij7j1i-firebase-tools-14.3.1/lib/node_modules/firebase-tools/lib/bin/firebase.js deploy
+[debug] [2025-06-07T10:26:16.573Z] CLI Version:   14.3.1
+[debug] [2025-06-07T10:26:16.574Z] Platform:      linux
+[debug] [2025-06-07T10:26:16.574Z] Node Version:  v20.19.0
+[debug] [2025-06-07T10:26:16.574Z] Time:          Sat Jun 07 2025 10:26:16 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-06-07T10:26:16.574Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-07T10:26:17.556Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-07T10:26:17.559Z] > authorizing via signed-in user (amritsingh21299@gmail.com)
+[debug] [2025-06-07T10:26:17.559Z] [iam] checking project demp-app-76ccb for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-06-07T10:26:17.570Z] Checked if tokens are valid: false, expires at: 1749292703500
+[debug] [2025-06-07T10:26:17.576Z] Checked if tokens are valid: false, expires at: 1749292703500
+[debug] [2025-06-07T10:26:17.577Z] > refreshing access token with scopes: []
+[debug] [2025-06-07T10:26:17.582Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-06-07T10:26:17.582Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-06-07T10:26:17.840Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-06-07T10:26:17.843Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-06-07T10:26:17.857Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/demp-app-76ccb:testIamPermissions [none]
+[debug] [2025-06-07T10:26:17.857Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/demp-app-76ccb:testIamPermissions x-goog-quota-user=projects/demp-app-76ccb
+[debug] [2025-06-07T10:26:17.858Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/demp-app-76ccb:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-06-07T10:26:16.910Z] ----------------------------------------------------------------------
+[debug] [2025-06-07T10:26:16.915Z] Command:       /nix/store/rbdrkcs5kkwpalxcd7c6bnm33lk2955n-nodejs-20.19.0/bin/node /nix/store/nh3zwzkz6wh6qa7bd2ywzr7irjij7j1i-firebase-tools-14.3.1/lib/node_modules/firebase-tools/lib/bin/firebase.js deploy
+[debug] [2025-06-07T10:26:16.916Z] CLI Version:   14.3.1
+[debug] [2025-06-07T10:26:16.916Z] Platform:      linux
+[debug] [2025-06-07T10:26:16.916Z] Node Version:  v20.19.0
+[debug] [2025-06-07T10:26:16.917Z] Time:          Sat Jun 07 2025 10:26:16 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-06-07T10:26:16.917Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-07T10:26:17.806Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-07T10:26:17.807Z] > authorizing via signed-in user (amritsingh21299@gmail.com)
+[debug] [2025-06-07T10:26:17.807Z] [iam] checking project demp-app-76ccb for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-06-07T10:26:17.809Z] Checked if tokens are valid: false, expires at: 1749292703500
+[debug] [2025-06-07T10:26:17.809Z] Checked if tokens are valid: false, expires at: 1749292703500
+[debug] [2025-06-07T10:26:17.810Z] > refreshing access token with scopes: []
+[debug] [2025-06-07T10:26:17.812Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-06-07T10:26:17.812Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-06-07T10:26:17.953Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-06-07T10:26:17.954Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-06-07T10:26:17.966Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/demp-app-76ccb:testIamPermissions [none]
+[debug] [2025-06-07T10:26:17.967Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/demp-app-76ccb:testIamPermissions x-goog-quota-user=projects/demp-app-76ccb
+[debug] [2025-06-07T10:26:17.967Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/demp-app-76ccb:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-06-07T10:26:18.137Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/demp-app-76ccb:testIamPermissions 200
+[debug] [2025-06-07T10:26:18.138Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/demp-app-76ccb:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-06-07T10:26:18.142Z] Checked if tokens are valid: true, expires at: 1749295576954
+[debug] [2025-06-07T10:26:18.142Z] Checked if tokens are valid: true, expires at: 1749295576954
+[debug] [2025-06-07T10:26:18.143Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/demp-app-76ccb [none]
+[debug] [2025-06-07T10:26:18.380Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/demp-app-76ccb 200
+[debug] [2025-06-07T10:26:18.638Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/demp-app-76ccb:testIamPermissions 200
+[debug] [2025-06-07T10:26:18.641Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/demp-app-76ccb:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-06-07T10:26:18.644Z] Checked if tokens are valid: true, expires at: 1749295576844
+[debug] [2025-06-07T10:26:18.644Z] Checked if tokens are valid: true, expires at: 1749295576844
+[debug] [2025-06-07T10:26:18.645Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/demp-app-76ccb [none]
+[debug] [2025-06-07T10:26:18.931Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/demp-app-76ccb 200
+[debug] [2025-06-07T10:26:18.380Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/demp-app-76ccb {"projectId":"demp-app-76ccb","projectNumber":"1072591454317","displayName":"demp-app","name":"projects/demp-app-76ccb","resources":{"hostingSite":"demp-app-76ccb"},"state":"ACTIVE","etag":"1_1ba7748a-3bbf-4036-816c-d09d55b31c6d"}
+[debug] [2025-06-07T10:26:18.935Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/demp-app-76ccb {"projectId":"demp-app-76ccb","projectNumber":"1072591454317","displayName":"demp-app","name":"projects/demp-app-76ccb","resources":{"hostingSite":"demp-app-76ccb"},"state":"ACTIVE","etag":"1_1ba7748a-3bbf-4036-816c-d09d55b31c6d"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 15.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 15.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-06-07T10:26:29.978Z] Checked if tokens are valid: true, expires at: 1749295576954
+[debug] [2025-06-07T10:26:29.978Z] Checked if tokens are valid: true, expires at: 1749295576954
+[debug] [2025-06-07T10:26:29.979Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/demp-app-76ccb/sites/demp-app-76ccb [none]
+[debug] [2025-06-07T10:26:30.307Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/demp-app-76ccb/sites/demp-app-76ccb 200
+[debug] [2025-06-07T10:26:30.313Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/demp-app-76ccb/sites/demp-app-76ccb {"name":"projects/demp-app-76ccb/sites/demp-app-76ccb","defaultUrl":"https://demp-app-76ccb.web.app","appId":"1:1072591454317:web:e9eb389a32eb7bb604bf64","type":"DEFAULT_SITE"}
+[debug] [2025-06-07T10:26:30.669Z] Checked if tokens are valid: true, expires at: 1749295576844
+[debug] [2025-06-07T10:26:30.679Z] Checked if tokens are valid: true, expires at: 1749295576844
+[debug] [2025-06-07T10:26:30.681Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/demp-app-76ccb/sites/demp-app-76ccb [none]
+[debug] [2025-06-07T10:26:30.984Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/demp-app-76ccb/sites/demp-app-76ccb 200
+[debug] [2025-06-07T10:26:30.985Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/demp-app-76ccb/sites/demp-app-76ccb {"name":"projects/demp-app-76ccb/sites/demp-app-76ccb","defaultUrl":"https://demp-app-76ccb.web.app","appId":"1:1072591454317:web:e9eb389a32eb7bb604bf64","type":"DEFAULT_SITE"}
+[info]    ▲ Next.js 15.3.3
+
+[info] 
+
+[info]    Creating an optimized production build ...
+
+[info]    ▲ Next.js 15.3.3
+
+[info] 
+
+[info]    Creating an optimized production build ...
+
+[info] <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/home/user/demo-app/.next/cache/webpack/client-production/1.pack_' -> '/home/user/demo-app/.next/cache/webpack/client-production/1.pack'
+
+[info]  ✓ Compiled successfully in 11.0s
+
+[info]  ✓ Compiled successfully in 11.0s
+
+[info]    Linting and checking validity of types ...
+
+[info]    Linting and checking validity of types ...
+
